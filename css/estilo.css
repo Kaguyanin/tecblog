@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/* Limpar formatação padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* Layout */
+
+#header {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#header, #menu {
+    padding: 12px;
+}
+
+#content {
+    width: 920px;
+    margin: 0 auto;
+}
+
+#posts-area {
+    background: #fff;
+    float: left;
+    width: 660px;
+}
+
+#lateral-area {
+    background: #fff;
+    float: right;
+    width: 240px;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+#footer {
+    clear: both;
+    background: #CCC;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Formatações do Menu */
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+a:hover {
+    color: #f7b600;
+    background: #ffffff;
+}
+
+/* Formatações Gerais */
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.branco {
+    color: #ffffff;
+}
