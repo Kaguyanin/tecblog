@@ -27,18 +27,23 @@ body {
 #content {
     width: 920px;
     margin: 0 auto;
+    padding: 15px;
 }
 
 #posts-area {
-    background: #fff;
     float: left;
     width: 660px;
 }
 
 #lateral-area {
-    background: #fff;
     float: right;
     width: 240px;
+}
+
+.lateral-content {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .post {
@@ -61,13 +66,22 @@ a {
 }
 
 a:link, a:visited {
+    color: #f7b600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header a:link, #header a:visited {
     color: #FFF;
     padding: 8px 12px;
 }
 
-a:hover {
+#header a:hover {
     color: #f7b600;
     background: #ffffff;
+    text-decoration: none;
 }
 
 /* Formatações Gerais */
@@ -77,6 +91,38 @@ h1 {
     font-size: 2.5em;
 }
 
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
 .branco {
     color: #ffffff;
+}
+
+.post-date {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.lateral-post {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.category-list {
+    padding: 5px;
+}
+
+li {
+    list-style: none;
 }
